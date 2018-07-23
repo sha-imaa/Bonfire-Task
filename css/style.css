@@ -1,0 +1,102 @@
+ /* General syntax */
+body
+{
+    margin:0 auto;
+    width:100%;
+    font-family:serif    
+}
+
+header
+{
+  clear:both;
+  width:100%;
+  
+}
+
+ /* Header's site */
+             
+.logoNav
+{
+    width:100%;
+    height:100px;
+    font-family:sans-serif;
+    font-size:40px;
+    background:#ef7d58
+}
+
+.logoNav span
+{
+    color:#fff;
+    font-size:15px;
+    position:relative;
+   bottom:40px;
+    
+}
+
+.logoNav img
+{
+    width:100px;
+    height:100px;
+    border-radius:80%;
+    margin-left:150px
+}
+
+nav
+{
+   font-size:18px;
+   width:700px;
+   float:right;
+   margin-right:40px;
+   position:relative;
+   bottom:93px;
+   
+}
+ul li 
+{
+        list-style-type:none;
+        display:inline-block;
+       
+
+}
+ul li a
+{
+    text-decoration:none;
+    padding:10px;
+    color:#fff
+    
+}
+.button 
+{
+   color: white;
+  display: inline-block;
+  position: relative; 
+  padding: 2px 5px;
+  cursor:pointer
+}
+
+.button__badge {
+  background-color:#de6e49;
+  border-radius:50%;
+  color: white;
+  padding: 1px 3px;
+  font-size: 10px;
+  position: absolute; /* Position the badge within the relatively positioned button */
+  top:1px;
+  right:0;
+}
+
+.nav-2
+{
+    width:100%;
+    background:#eedcbf;
+    text-align:center;
+    margin-right:0;
+    margin-top:23px
+}
+.nav-2  li a
+{
+    text-decoration:none;
+    padding:10px;
+    color:#695e5b
+    
+}
