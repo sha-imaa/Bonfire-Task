@@ -3,14 +3,19 @@ body
 {
     margin:0 auto;
     width:100%;
-    font-family:serif    
+    font-family:serif;
+    overflow-x: hidden
 }
 
 header
 {
   clear:both;
-  width:100%;
-  
+  width:100%
+}
+
+h1
+{
+  margin-top:15px
 }
 
  /* Header's site */
@@ -87,7 +92,7 @@ ul li a:hover
   top:1px;
   right:0;
 }
-
+        /* second nav bar */
 .nav-2
 {
     width:100%;
@@ -100,14 +105,14 @@ ul li a:hover
 {
     text-decoration:none;
     padding:10px;
-    color:#695e5b
+    color:#695e5b;
+    cursor:pointer
     
 }
-.nav-2 li a:hover
+.nav-2  li a:hover
 {
-    background-color:#f8e6ca
+ background:#
 }
-
 
 .menu
 {
@@ -115,10 +120,8 @@ ul li a:hover
 }
 .active
 {
- background:#f8e6ca
+ background:#
 }
-
-
 .subMenu:before
 {
   content:"";
@@ -156,10 +159,9 @@ ul li a:hover
 }
 .subMenu a:hover
 {
- opacity:.7;
  background:#ef7d58
 }
-           /* icons nav-bar */
+           /* social icons and search nav*/
  .nav-3
  {
   width:100%;
@@ -241,7 +243,7 @@ ul li a:hover
  {
   opacity:.4
  }
-         /* image slide container */
+         /*  introduction image slider */
          
  .slideshow-container
  {
@@ -255,20 +257,21 @@ ul li a:hover
 
 .slideshow-container img
 {
- width:70%;
+ width:71%;
  height:400px;
- margin-left:200px
+ margin-left:200px;
+
 
 }
 .BubbleEffect
 {
  background:#68d5b4;
- width:70%;
+ width:71%;
  margin-left:200px;
  border-radius:5px;
  color:#fff;
  height:60px;
- margin-top:0
+ margin-top:-5px;
  
 }
 .dot {
@@ -315,7 +318,134 @@ ul li a:hover
  color:#fff
 
 }
-@keyframes .mySlides-fade {
+.BubbleEffect button:hover
+{
+ background:#ef7d58;
+ cursor:pointer
+}
+@keyframes mySlides-fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+hr
+{
+ width:770px;
+ margin-top:-10px;
+ margin-right:245px;
+ position:relative;
+ bottom:8px
+ 
+ 
+}
+
+.content
+{
+ width:90%;
+ height:400px;
+ margin-left:200px;
+ color:#817e7e;
+ margin-top:90px
+
+}
+
+.container,.brands
+{
+ width:82%;
+ height:300px;
+ margin-top:25px
+ 
+
+}
+.container div
+{
+ width:218px;
+ height:190px;
+ background:#eee;
+ border:solid 1px #9e9b9c;
+ text-align:center;
+ padding-top:15px;
+ float:left;
+ border-radius:4px;
+ margin-right:10px
+ 
+ 
+
+}
+.container img
+{
+ width:170px;
+ height:100px
+}
+.container p
+{
+ text-align:left;
+ margin-left:15px
+}
+.container button
+{
+  height:30px;
+  
+}
+.btn
+{
+ background:#ef7d58;
+ height:30px;
+ border:none;
+ border-radius:3px
+}
+
+.btn:hover
+{
+ background:#68d5b4;
+ color:#fff;
+ cursor:pointer
+}
+.deactivateBtn
+{
+ background:#cdc9c9;
+ border:none;
+ border-radius:3px
+}
+      
+           /* brands slide */
+.brands
+{
+ display: none
+}
+.brands img
+{
+  width:200px;
+  height:200px;
+  float:left;
+  margin-right:15px;
+ 
+}
+.brands div
+{
+ margin-right:0
+}
+
+.prev,.next
+{
+ 
+  position:absolute;
+  top:202%;
+  padding:15px;
+  cursor:pointer;
+  font-weight:bolder;
+  font-size:25px
+}
+.prev
+{
+ left:100px
+}
+.next
+{
+ margin-left:890px
+}
+.prev:hover,
+.next:hover
+{
+ background:#f7e2e2
 }
